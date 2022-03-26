@@ -1,5 +1,5 @@
 ---
-title: "Página web personal"
+title: "Una grata bienvenida"
 output:
   html_document:
     theme: cosmo
@@ -7,3 +7,5 @@ output:
 ---
 
 Bienvenidos a mi página, la cual tiene como fin educar sobre las diferentes materias, además de facilitar material para el aprendizaje y la comprehensión de estas.
+
+
