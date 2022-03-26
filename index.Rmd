@@ -9,3 +9,21 @@ output:
 Bienvenidos a mi página, la cual tiene como fin educar sobre las diferentes materias, además de facilitar material para el aprendizaje y la comprehensión de estas.
 
 
+## Antes de partir nos debemos hacer una pregunta interesante ¿ Por qué es relevante el estudio de la economía y las finanzas?
+
+Esto es una pregunta bastante amplia para responder, pero para partir debemos asumir que el punto inicial para la economía es admitir un hecho funtamental: ***Los recursos son escasos***, por lo tanto ciertas áreas de la economía se encargan de estudiar *Cómo* y *cuándo* asignarlos y otras áreas se dedica a ver *Cómo es la distribución de los bienes* y *qué tan equitativa/efiente es*.
+
+Es por esto último, de que no existe *a priori* una definición capaz de englobar todo lo que significa el estudio de la economía.
+
+Establecido esto, es necesario argumentar de que la economía estudia la **causalidad** de las cosas, para lo cual emplea distintos mecanismo y herramientas, siendo una (sino la más) relevante la econometría.
+
+Este análisis va más allá de un análisis descriptivo de las variables, pongamos como ejemplo el desempleo de las mujeres en Chile (como porcentaje del total de la fuerza de trabajo) y el PIB chileno (medido en dólares y con precio constante de referencia el 2010):
+<center>
+![Datos obtenidos del Banco Mundial](Excel/mujerespib.png){width=50%}
+</center>
+Una persona poco meticulosa diría que existe una relación inversa entre el PIB y la tasa de desempleo, pero un economista le interesaría saber cómo es la relación entre ambas variables y qué puede influir en esta. Una vez *contestada* esta pregunta le interesa medir el impacto, para de esta forma ver realmente si existe o no significancia de explicar un evento al otro.
+
+Finalmente, existe otra área de la economía que trata de modelar posibles escenarios, por ejemplo cuál sería la potencial ganancia/pérdida para un país de abrirse a los mercados o por ejemplo qué hubiera pasado si cierto país no se hubiera independizado, hay una frase que expresa mejor que esto (la cual robé de los papers de Lucas) que dice:
+
+$$\textit{If this is the best of possible worlds what then are the others (Voltaire)}$$
+
