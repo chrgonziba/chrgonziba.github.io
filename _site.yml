@@ -3,7 +3,11 @@ output_dir: "."
 navbar:
   title: "Página web"
   left:
-    - text: "Home"
+    - text: "home"
       href: index.html
-    - text: "About"
+    - text: "Sobre mi"
       href: about.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
