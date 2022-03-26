@@ -1,9 +1,26 @@
 ---
-title: "About This Website"
+title: "Sobre mi"
 output:
   html_document:
     theme: cosmo
     highlight: textmate
 ---
 
-More about this website.
+![](yo/personal.jpg){width=30%}
+
+
+## Área Académica
+
+Titulado de Ingeniería Comercial, Licetura en Ciencias Económicas, de la Universidad de Chile. Actualmente cursando el Magíster de Finanzas en la misma universidad.
+
+
+## CV
+[Versión en español](yo/CV_ES.pdf)
+
+
+## Datos de contacto
+
+                                  correo de contacto: chrgonziba@gmail.com 
+                                  correo institucional: chgonzalez@fen.uchile.cl
+                                  Número de contacto: +569 4210 7559
+    

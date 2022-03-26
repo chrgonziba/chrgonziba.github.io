@@ -6,4 +6,4 @@ output:
     highlight: textmate
 ---
 
-Hello, Website!
+Bienvenidos a mi página, la cual tiene como fin educar sobre las diferentes materias, además de facilitar material para el aprendizaje y la comprehensión de estas.
