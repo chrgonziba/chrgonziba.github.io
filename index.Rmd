@@ -1,5 +1,9 @@
 ---
 title: "Página web personal"
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
 ---
 
 Hello, Website!
