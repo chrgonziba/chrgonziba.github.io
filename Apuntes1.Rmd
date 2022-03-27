@@ -18,3 +18,7 @@ Muchas Gracias!
 ## Econometría
 
 - [Apunte econometría cohorte transversal (en elaboración)](Apuntes/Econometría/Econ1.pdf)
+
+## Macroeconomía
+
+- [IS-LM Economía cerrada](Apuntes/Macroeconomía/IS-LM economía cerrada.pdf)
