@@ -11,7 +11,7 @@ output:
 
 ## Área Académica
 
-Titulado de Ingeniería Comercial, Licetura en Ciencias Económicas, de la Universidad de Chile. Actualmente cursando el Magíster de Finanzas en la misma universidad.
+Titulado de Ingeniería Comercial, Licenciatura en Ciencias Económicas, de la Universidad de Chile. Actualmente cursando el Magíster de Finanzas en la misma universidad.
 
 
 ## CV
@@ -20,6 +20,6 @@ Titulado de Ingeniería Comercial, Licetura en Ciencias Económicas, de la Unive
 
 ## Datos de contacto
 
-- correo de contacto: chrgonziba@gmail.com 
-- correo institucional: chgonzalez@fen.uchile.cl
+- correo de contacto: <chrgonziba@gmail.com>
+- correo institucional: <chgonzalez@fen.uchile.cl>
 - Número de contacto: +569 4210 7559
