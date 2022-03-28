@@ -9,6 +9,8 @@ navbar:
       href: about.html
     - text: "Apuntes"
       href: Apuntes1.html
+    - text: "En elaboración"
+      href: Pendientes.html      
 output:
   html_document:
     theme: cosmo

@@ -1,0 +1,24 @@
+---
+title: "En elaboración"
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+---
+# 2022
+
+## Abril 
+
+- [ ] Terminar apunte de estructura de capital óptima.
+
+- [ ] Abrir una nueva sección de demostraciones.
+
+- [ ] Abrir una nueva sección de aplicación de modelos usados en la literatura.
+
+## Mayo 
+
+- [ ] Empezar con la elaboración de política de dividendos v/s recompra de -acciones.
+
+- [ ] Elaboración de apuntes sobre métodos de valorización.
+
+- [ ] Elaboración de apuntes sobre bonos o matemática financiera.
