@@ -17,7 +17,11 @@ output:
 
 ## Mayo 
 
-- [ ] Empezar con la elaboración de política de dividendos v/s recompra de -acciones.
+- [ ] Relización ayudantía solidaria.
+
+- [ ] Empezar con la elaboración de política de dividendos v/s recompra de acciones.
+
+## Junio
 
 - [ ] Elaboración de apuntes sobre métodos de valorización.
 
