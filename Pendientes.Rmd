@@ -9,7 +9,7 @@ output:
 
 ## Abril 
 
-- [ ] Terminar apunte de estructura de capital óptima.
+- [x] Terminar apunte de estructura de capital óptima.
 
 - [ ] Abrir una nueva sección de demostraciones.
 
