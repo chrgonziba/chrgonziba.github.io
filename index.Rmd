@@ -9,7 +9,7 @@ output:
 Bienvenidos a mi página, la cual tiene como fin educar sobre las diferentes materias, además de facilitar material para el aprendizaje y la comprehensión de estas.
 
 
-# Antes de partir nos debemos hacer una pregunta interesante ¿ Por qué es relevante el estudio de la economía y las finanzas?
+## Antes de partir nos debemos hacer una pregunta interesante ¿ Por qué es relevante el estudio de la economía y las finanzas?
 
 Esto es una pregunta bastante amplia para responder, pero para partir debemos asumir que el punto inicial para la economía es admitir un hecho funtamental: Los recursos son escasos, por lo tanto ciertas áreas de la economía se encargan de estudiar Cómo y cuándo asignarlos y otras áreas se dedica a ver Cómo es la distribución de los bienes y qué tan equitativa/efiente es.Es por esto último, de que no existe a priori una definición capaz de englobar todo lo que significa el estudio de la economía.
 
