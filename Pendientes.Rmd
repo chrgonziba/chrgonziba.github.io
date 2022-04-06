@@ -13,7 +13,7 @@ output:
 
 - [ ] Abrir una nueva sección de demostraciones.
 
-- [ ] Abrir una nueva sección de aplicación de modelos usados en la literatura.
+- [x] Abrir sección materiales complementarios.
 
 ## Mayo 
 

@@ -1,0 +1,21 @@
+---
+title: "Material complementario"
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+---
+
+### Finanzas Corporativas
+- [Corporate finance, Berk & De Marzo (Third edition,English version)](Material/Finanzas corporativas/Demarzothird.pdf)
+- [Finanzas Corporativas, Berk & De Marzo (Primera edición,Spanish version, 2008)](Material/Finanzas corporativas/finanzas-corporativas-berk 1ra 2008.pdf)
+- [Solutions manual Berk & De Marzo (2009 edition)](Material/Finanzas corporativas/Berk-demarzo solution manual 2008.pdf)
+
+- [Finanzas Corporativas, Ross, Westerfield & Jaffe (9na edición,Spanish version)](Material/Finanzas corporativas/Ross, Westerfield, Jaffe 9na.pdf)
+- [Solutions manual Ross, Westerfield & Jaffe (9th edition)](Material/Finanzas corporativas/Solution manual (Ross, Westerfield, Jaffe) 9na.pdf)
+
+- [Principios de finanzas corporativas Breley, Myers & Allen(9na edición)](Material/Finanzas corporativas/Finanzas myers.pdf)
+
+- [Principle of corporative finance Breley, Myers & Allen (12th edition, English version)](Material/Finanzas corporativas/BSC myers.pdf)
+
+- [Solutions manual Breley, Myers & Allen (7th edition)](Material/Finanzas corporativas/principles-of-corporate-finance-7ed-brealey-myers-solutions-manual.pdf)
