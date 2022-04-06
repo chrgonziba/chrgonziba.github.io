@@ -6,7 +6,6 @@ output:
     highlight: textmate
 ---
 # 2022
-
 ## Abril 
 
 - [x] Terminar apunte de estructura de capital óptima.
