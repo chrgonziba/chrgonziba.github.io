@@ -1,7 +1,7 @@
-name: "Página web"
+name: "Personal page"
 output_dir: "."
 navbar:
-  title: "Página web"
+  title: "Personal page"
   left:
     - text: "Home"
       href: index.html
