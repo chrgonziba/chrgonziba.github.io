@@ -19,3 +19,7 @@ output:
 - [Principle of corporative finance Breley, Myers & Allen (12th edition, English version)](Material/Finanzas corporativas/BSC myers.pdf)
 
 - [Solutions manual Breley, Myers & Allen (7th edition)](Material/Finanzas corporativas/principles-of-corporate-finance-7ed-brealey-myers-solutions-manual.pdf)
+
+- [Finanzas corporativas Eduardo Court (1ra edición)](Material/Finanzas corporativas/Eduardo Court - Finanzas Corporativas.-Cengage Learning Editores S.A. de C.V. (2010).pdf)
+
+- [Finanzas Corporativas, teoría y práctica Carlos Maquieira (borrador)](Material/Finanzas corporativas/finanzas-corporativas-maquieira-.pdf)
