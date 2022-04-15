@@ -12,7 +12,7 @@ output:
 -VAN con flujos en t=1 y sin crecimiento de estos
 $$VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i}{(1+r)^i}$$
 -VAN con flujos en t=1 y con crecimiento de estos
-$$VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i\cdot(1+g_i)^i}{(1+r)^i}$$
+$$VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i\cdot(1+g_i)}{(1+r)^i}$$
 
 -Anualidades con flujos constantes y sin crecimiento 
 
@@ -28,29 +28,51 @@ $$VP_{t=0}=\sum_{i=1}^\infty \frac{Flujo}{(1+r)^i}=\frac{Flujo}{r}$$
 $$VP_{t=0}=\sum_{i=1}^\infty \frac{Flujo\cdot(1+g)^i}{(1+r)^i}=\frac{Flujo}{r-g}$$
 Es importante que todas la fórmulas presentadas asumen de que los flujos suceden "al menos" un periodo más adelante, ya que de no ser así se debe incluir el flujo del periodo actual.
 
+### Bonos
+-Precio de mercado de bono tipo cero cupón a la colocación
+$$P=\frac{Nominal}{(1+r)^{n}}$$
+-Precio de mercado de bono tipo bullet a la colocación:
+$$P = \sum_{i=1}^{n-1}\frac{Cupón}{(1+r)^i}+\frac{Cupón+Nominal}{(1+r)^n}$$
+$$\longleftrightarrow P = \frac{Cupón}{r}\cdot\left(1-\frac{1}{(1+r)^n}\right)+\frac{Nominal}{(1+r)^n}$$
+-Precio de mercado de bono tipo francés a la colocación:
+$$P = \sum_{i=1}^{n}\frac{Cupón}{(1+r)^i}=\frac{Cupón}{r}\cdot\left(1-\frac{1}{(1+r)^n}\right)$$
+-Valor de mercado de un bono
+$$\text{Valor de mercado} = \frac{Precio}{Nominal}$$
+
+### Acciones
+-Precio de la acción sin crecimiento
+$$P_0 = \sum_{i=1}^{n} \frac{Div_0}{(1+K_p)^{i}}$$
+-Precio de la acción con crecimiento
+$$P_0 = \sum_{i=1}^{n} \frac{Div_{i-1} \cdot(1+g_i)}{(1+K_p)^{i}}$$
+-Modelo de crecimiento constante Gordon & Shapiro (1956)
+$$P_0=\frac{Div_1}{K_p-g}$$
+-Rendimiento total
+$$R=\underbrace{\frac{Div_{t+1}}{P_t}}_{\text{Rendimiento del dividendo}}+\underbrace{\frac{P_{t+1}-P_t}{P_t}}_{\text{Ganancia de capital}}$$
+Es importante que todas la fórmulas presentadas asumen de que los flujos suceden "al menos" un periodo más adelante, ya que de no ser así se debe incluir el flujo del periodo actual.
+
 ### Modigliani & Miller
 
 -Proposición I Modigliani & Miller 1958 (sin impuestos)
 $$V_{c/d}=V_{s/d}$$
 -Proposición II Modigliani & Miller 1958 (sin impuestos)
-$$K_p = \rho + (\rho-r_d)\cdot \left(\frac{D}{P_{c/d}} \right)$$
+$$K_p = \rho + (\rho-K_b)\cdot \left(\frac{D}{P} \right)$$
 -Wacc Modigliani & Miller 1958 (sin impuestos)
 
-$$\rho = r_{wacc}= \frac{D}{D+P} \cdot r_d + \frac{P}{D+P} \cdot r_p$$
+$$\rho = K_{wacc}= \frac{D}{D+P} \cdot K_b + \frac{P}{D+P} \cdot K_p$$
 -Proposición I Modigliani & Miller 1963 (con impuestos corporativos)
 
 $$V_{c/d}=V_{s/d}+t_c \cdot D$$
 -Proposición II Modigliani & Miller 1963 (con impuestos corporativos)
 
-$$K_p = \rho + (\rho-r_d)\cdot \left(\frac{D}{P_{c/d}} \right)\cdot(1-t_c)$$
+$$K_p = \rho + (\rho-K_b)\cdot \left(\frac{D}{P} \right)\cdot(1-t_c)$$
 -$\rho$ Modigliani & Miller 1963 (con impuestos corporativos)
 
-$$\rho = \frac{D}{D+P} \cdot r_d + \frac{P}{D+P} \cdot r_p$$
+$$\rho = \frac{D}{D+P} \cdot K_b + \frac{P}{D+P} \cdot K_p$$
 -Wacc Modigliani & Miller 1963 (con impuestos corporativos)
 
-$$r_{wacc} = \frac{D}{D+P} \cdot r_d \cdot (1-t_c) + \frac{P}{D+P} \cdot r_p$$
+$$K_{wacc} = \frac{D}{D+P} \cdot K_b \cdot (1-t_c) + \frac{P}{D+P} \cdot K_p$$
 -Proposición III Modigliani & Miller 1963 (con impuestos corporativos)
-$$r_{wacc}=\rho\left[1-t_c \cdot \left(\frac{D}{D+P} \right)\right]$$
+$$K_{wacc}=\rho\left[1-t_c \cdot \left(\frac{D}{D+P} \right)\right]$$
 
 ### Hamada & Rubinstein
 

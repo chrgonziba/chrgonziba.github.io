@@ -280,21 +280,29 @@ $(document).ready(function () {
 <h2 class="tabset tabset-pills">Fórmulario Finanzas Corporativas (pregrado)</h2>
 <div id="mate-financiera" class="section level3">
 <h3>Mate financiera</h3>
-<p>-VAN con flujos en t=1 y sin crecimiento de estos <span class="math display">\[VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i}{(1+r)^i}\]</span> -VAN con flujos en t=1 y con crecimiento de estos <span class="math display">\[VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i\cdot(1+g_i)^i}{(1+r)^i}\]</span></p>
+<p>-VAN con flujos en t=1 y sin crecimiento de estos <span class="math display">\[VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i}{(1+r)^i}\]</span> -VAN con flujos en t=1 y con crecimiento de estos <span class="math display">\[VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i\cdot(1+g_i)}{(1+r)^i}\]</span></p>
 <p>-Anualidades con flujos constantes y sin crecimiento</p>
 <p><span class="math display">\[VP_{t=0}=\sum_{i=1}^n \frac{Flujo}{(1+r)^i}= \frac{C}{r}\cdot\left(1-\frac{1}{(1+r)^n}\right)\]</span> -Anualidades con flujos constantes y con crecimiento constante en t=1</p>
 <p><span class="math display">\[VP_{t=0}= \frac{C}{r-g}\cdot\left(1-\left(\frac{1+g}{1+r}\right)^n\right)\]</span> -Perpetuidad sin crecimiento</p>
 <p><span class="math display">\[VP_{t=0}=\sum_{i=1}^\infty \frac{Flujo}{(1+r)^i}=\frac{Flujo}{r}\]</span> -Perpetuidad con crecimiento constante</p>
 <p><span class="math display">\[VP_{t=0}=\sum_{i=1}^\infty \frac{Flujo\cdot(1+g)^i}{(1+r)^i}=\frac{Flujo}{r-g}\]</span> Es importante que todas la fórmulas presentadas asumen de que los flujos suceden “al menos” un periodo más adelante, ya que de no ser así se debe incluir el flujo del periodo actual.</p>
 </div>
+<div id="bonos" class="section level3">
+<h3>Bonos</h3>
+<p>-Precio de mercado de bono tipo cero cupón a la colocación <span class="math display">\[P=\frac{Nominal}{(1+r)^{n}}\]</span> -Precio de mercado de bono tipo bullet a la colocación: <span class="math display">\[P = \sum_{i=1}^{n-1}\frac{Cupón}{(1+r)^i}+\frac{Cupón+Nominal}{(1+r)^n}\]</span> <span class="math display">\[\longleftrightarrow P = \frac{Cupón}{r}\cdot\left(1-\frac{1}{(1+r)^n}\right)+\frac{Nominal}{(1+r)^n}\]</span> -Precio de mercado de bono tipo francés a la colocación: <span class="math display">\[P = \sum_{i=1}^{n}\frac{Cupón}{(1+r)^i}=\frac{Cupón}{r}\cdot\left(1-\frac{1}{(1+r)^n}\right)\]</span> -Valor de mercado de un bono <span class="math display">\[\text{Valor de mercado} = \frac{Precio}{Nominal}\]</span></p>
+</div>
+<div id="acciones" class="section level3">
+<h3>Acciones</h3>
+<p>-Precio de la acción sin crecimiento <span class="math display">\[P_0 = \sum_{i=1}^{n} \frac{Div_0}{(1+K_p)^{i}}\]</span> -Precio de la acción con crecimiento <span class="math display">\[P_0 = \sum_{i=1}^{n} \frac{Div_{i-1} \cdot(1+g_i)}{(1+K_p)^{i}}\]</span> -Modelo de crecimiento constante Gordon &amp; Shapiro (1956) <span class="math display">\[P_0=\frac{Div_1}{K_p-g}\]</span> -Rendimiento total <span class="math display">\[R=\underbrace{\frac{Div_{t+1}}{P_t}}_{\text{Rendimiento del dividendo}}+\underbrace{\frac{P_{t+1}-P_t}{P_t}}_{\text{Ganancia de capital}}\]</span> Es importante que todas la fórmulas presentadas asumen de que los flujos suceden “al menos” un periodo más adelante, ya que de no ser así se debe incluir el flujo del periodo actual.</p>
+</div>
 <div id="modigliani-miller" class="section level3">
 <h3>Modigliani &amp; Miller</h3>
-<p>-Proposición I Modigliani &amp; Miller 1958 (sin impuestos) <span class="math display">\[V_{c/d}=V_{s/d}\]</span> -Proposición II Modigliani &amp; Miller 1958 (sin impuestos) <span class="math display">\[K_p = \rho + (\rho-r_d)\cdot \left(\frac{D}{P_{c/d}} \right)\]</span> -Wacc Modigliani &amp; Miller 1958 (sin impuestos)</p>
-<p><span class="math display">\[\rho = r_{wacc}= \frac{D}{D+P} \cdot r_d + \frac{P}{D+P} \cdot r_p\]</span> -Proposición I Modigliani &amp; Miller 1963 (con impuestos corporativos)</p>
+<p>-Proposición I Modigliani &amp; Miller 1958 (sin impuestos) <span class="math display">\[V_{c/d}=V_{s/d}\]</span> -Proposición II Modigliani &amp; Miller 1958 (sin impuestos) <span class="math display">\[K_p = \rho + (\rho-K_b)\cdot \left(\frac{D}{P} \right)\]</span> -Wacc Modigliani &amp; Miller 1958 (sin impuestos)</p>
+<p><span class="math display">\[\rho = K_{wacc}= \frac{D}{D+P} \cdot K_b + \frac{P}{D+P} \cdot K_p\]</span> -Proposición I Modigliani &amp; Miller 1963 (con impuestos corporativos)</p>
 <p><span class="math display">\[V_{c/d}=V_{s/d}+t_c \cdot D\]</span> -Proposición II Modigliani &amp; Miller 1963 (con impuestos corporativos)</p>
-<p><span class="math display">\[K_p = \rho + (\rho-r_d)\cdot \left(\frac{D}{P_{c/d}} \right)\cdot(1-t_c)\]</span> -<span class="math inline">\(\rho\)</span> Modigliani &amp; Miller 1963 (con impuestos corporativos)</p>
-<p><span class="math display">\[\rho = \frac{D}{D+P} \cdot r_d + \frac{P}{D+P} \cdot r_p\]</span> -Wacc Modigliani &amp; Miller 1963 (con impuestos corporativos)</p>
-<p><span class="math display">\[r_{wacc} = \frac{D}{D+P} \cdot r_d \cdot (1-t_c) + \frac{P}{D+P} \cdot r_p\]</span> -Proposición III Modigliani &amp; Miller 1963 (con impuestos corporativos) <span class="math display">\[r_{wacc}=\rho\left[1-t_c \cdot \left(\frac{D}{D+P} \right)\right]\]</span></p>
+<p><span class="math display">\[K_p = \rho + (\rho-K_b)\cdot \left(\frac{D}{P} \right)\cdot(1-t_c)\]</span> -<span class="math inline">\(\rho\)</span> Modigliani &amp; Miller 1963 (con impuestos corporativos)</p>
+<p><span class="math display">\[\rho = \frac{D}{D+P} \cdot K_b + \frac{P}{D+P} \cdot K_p\]</span> -Wacc Modigliani &amp; Miller 1963 (con impuestos corporativos)</p>
+<p><span class="math display">\[K_{wacc} = \frac{D}{D+P} \cdot K_b \cdot (1-t_c) + \frac{P}{D+P} \cdot K_p\]</span> -Proposición III Modigliani &amp; Miller 1963 (con impuestos corporativos) <span class="math display">\[K_{wacc}=\rho\left[1-t_c \cdot \left(\frac{D}{D+P} \right)\right]\]</span></p>
 </div>
 <div id="hamada-rubinstein" class="section level3">
 <h3>Hamada &amp; Rubinstein</h3>
