@@ -6,7 +6,7 @@ output:
     highlight: textmate
 ---
 
-## Fórmulario Finanzas Corporativas (pregrado) {.tabset .tabset-pills}
+## Formulario Finanzas Corporativas (pregrado) {.tabset .tabset-pills}
 
 ### Mate financiera
 -VAN con flujos en t=1 y sin crecimiento de estos
