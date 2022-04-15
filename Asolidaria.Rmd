@@ -1,0 +1,74 @@
+---
+output:
+  html_document:
+    css: style1.css
+    theme: cosmo
+    highlight: textmate
+---
+
+## Fórmulario Finanzas Corporativas (pregrado) {.tabset .tabset-pills}
+
+### Mate financiera
+-VAN con flujos en t=1 y sin crecimiento de estos
+$$VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i}{(1+r)^i}$$
+-VAN con flujos en t=1 y con crecimiento de estos
+$$VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i\cdot(1+g_i)^i}{(1+r)^i}$$
+
+-Anualidades con flujos constantes y sin crecimiento 
+
+$$VP_{t=0}=\sum_{i=1}^n \frac{Flujo}{(1+r)^i}= \frac{C}{r}\cdot\left(1-\frac{1}{(1+r)^n}\right)$$
+-Anualidades con flujos constantes y con crecimiento constante en t=1
+
+$$VP_{t=0}=\sum_{i=1}^n \frac{Flujo\cdot(1+g)^i}{(1+r)^i}= \frac{C}{r-g}\cdot\left(1-\left(\frac{1+g}{1+r}\right)^n\right)$$
+-Perpetuidad sin crecimiento
+
+$$VP_{t=0}=\sum_{i=1}^\infty \frac{Flujo}{(1+r)^i}=\frac{Flujo}{r}$$
+-Perpetuidad con crecimiento constante
+
+$$VP_{t=0}=\sum_{i=1}^\infty \frac{Flujo\cdot(1+g)^i}{(1+r)^i}=\frac{Flujo}{r-g}$$
+Es importante que todas la fórmulas presentadas asumen de que los flujos suceden "al menos" un periodo más adelante, ya que de no ser así se debe incluir el flujo del periodo actual.
+
+### Modigliani & Miller
+
+-Proposición I Modigliani & Miller 1958 (sin impuestos)
+$$V_{c/d}=V_{s/d}$$
+-Proposición II Modigliani & Miller 1958 (sin impuestos)
+$$K_p = \rho + (\rho-r_d)\cdot \left(\frac{D}{P_{c/d}} \right)$$
+-Wacc Modigliani & Miller 1958 (sin impuestos)
+
+$$\rho = r_{wacc}= \frac{D}{D+P} \cdot r_d + \frac{P}{D+P} \cdot r_p$$
+-Proposición I Modigliani & Miller 1963 (con impuestos corporativos)
+
+$$V_{c/d}=V_{s/d}+t_c \cdot D$$
+-Proposición II Modigliani & Miller 1963 (con impuestos corporativos)
+
+$$K_p = \rho + (\rho-r_d)\cdot \left(\frac{D}{P_{c/d}} \right)\cdot(1-t_c)$$
+-$\rho$ Modigliani & Miller 1963 (con impuestos corporativos)
+
+$$\rho = \frac{D}{D+P} \cdot r_d + \frac{P}{D+P} \cdot r_p$$
+-Wacc Modigliani & Miller 1963 (con impuestos corporativos)
+
+$$r_{wacc} = \frac{D}{D+P} \cdot r_d \cdot (1-t_c) + \frac{P}{D+P} \cdot r_p$$
+-Proposición III Modigliani & Miller 1963 (con impuestos corporativos)
+$$r_{wacc}=\rho\left[1-t_c \cdot \left(\frac{D}{D+P} \right)\right]$$
+
+### Hamada & Rubinstein
+
+-CAPM 
+$$\mathbb{E}(r_i)=r_f + \left(r_m-r_f\right) \cdot \beta_i \quad \forall \quad \beta_i = \frac{COV(r_i,r_m)}{VAR(r_m)}$$
+-Deuda Hamada (1969,1972)
+$$K_b=r_f$$
+-Capital no apalancado Hamada (1969,1972)
+$$\rho = r_f + [\mathbb{E}(r_m)-r_f]\cdot\beta_p^{s/d}$$
+-Capital apalancado Hamada (1969,1972)
+$$\rho = r_f + [\mathbb{E}(r_m)-r_f]\cdot\beta_p^{c/d}$$
+-Relación entre el $\beta$ apalancado y no apalancado Hamada (1969,1972)
+
+$$\beta_p^{c/d}=\left(1 + (1-t_c)\cdot \frac{D}{D+P}\right)\cdot\beta_p^{s/d}$$
+-$K_{wacc}$ Hamada (1969,1972)
+$$K_{wacc}=\frac{P}{D+P}\cdot K_p + \frac{D}{D+P}\cdot (1-t_c) \cdot K_b$$
+
+## {-}
+
+
+

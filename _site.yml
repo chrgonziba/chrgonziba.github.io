@@ -10,7 +10,9 @@ navbar:
     - text: "Apuntes"
       href: Apuntes1.html
     - text: "Material"
-      href: Material.html  
+      href: Material.html 
+    - text: "Formulario"
+      href: FormularioFIN2.html     
     - text: "En elaboración"
       href: Pendientes.html      
 output:

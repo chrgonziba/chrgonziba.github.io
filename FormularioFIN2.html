@@ -11,7 +11,7 @@
 
 
 
-<title>Sobre mi</title>
+<title>FormularioFIN2.utf8</title>
 
 <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -57,7 +57,7 @@ if (window.hljs) {
 
 
 
-<link rel="stylesheet" href="style.css" type="text/css" />
+<link rel="stylesheet" href="style1.css" type="text/css" />
 
 
 
@@ -272,27 +272,40 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Sobre mi</h1>
 
 </div>
 
 
-<p><img src="yo/personal.jpg" style="width:30.0%" /></p>
-<div id="área-académica" class="section level2">
-<h2>Área Académica</h2>
-<p>Titulado de Ingeniería Comercial, Licenciatura en Ciencias Económicas, de la Universidad de Chile. Actualmente cursando el Magíster de Finanzas en la misma universidad.</p>
+<div id="fórmulario-finanzas-corporativas-pregrado" class="section level2 tabset tabset-pills">
+<h2 class="tabset tabset-pills">Fórmulario Finanzas Corporativas (pregrado)</h2>
+<div id="mate-financiera" class="section level3">
+<h3>Mate financiera</h3>
+<p>-VAN con flujos en t=1 y sin crecimiento de estos <span class="math display">\[VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i}{(1+r)^i}\]</span> -VAN con flujos en t=1 y con crecimiento de estos <span class="math display">\[VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i\cdot(1+g_i)^i}{(1+r)^i}\]</span></p>
+<p>-Anualidades con flujos constantes y sin crecimiento</p>
+<p><span class="math display">\[VP_{t=0}=\sum_{i=1}^n \frac{Flujo}{(1+r)^i}= \frac{C}{r}\cdot\left(1-\frac{1}{(1+r)^n}\right)\]</span> -Anualidades con flujos constantes y con crecimiento constante en t=1</p>
+<p><span class="math display">\[VP_{t=0}=\sum_{i=1}^n \frac{Flujo\cdot(1+g)^i}{(1+r)^i}= \frac{C}{r-g}\cdot\left(1-\left(\frac{1+g}{1+r}\right)^n\right)\]</span> -Perpetuidad sin crecimiento</p>
+<p><span class="math display">\[VP_{t=0}=\sum_{i=1}^\infty \frac{Flujo}{(1+r)^i}=\frac{Flujo}{r}\]</span> -Perpetuidad con crecimiento constante</p>
+<p><span class="math display">\[VP_{t=0}=\sum_{i=1}^\infty \frac{Flujo\cdot(1+g)^i}{(1+r)^i}=\frac{Flujo}{r-g}\]</span> Es importante que todas la fórmulas presentadas asumen de que los flujos suceden “al menos” un periodo más adelante, ya que de no ser así se debe incluir el flujo del periodo actual.</p>
 </div>
-<div id="cv" class="section level2">
-<h2>CV</h2>
-<p><a href="yo/CV_actualizado_ES.pdf">Versión en español</a></p>
+<div id="modigliani-miller" class="section level3">
+<h3>Modigliani &amp; Miller</h3>
+<p>-Proposición I Modigliani &amp; Miller 1958 (sin impuestos) <span class="math display">\[V_{c/d}=V_{s/d}\]</span> -Proposición II Modigliani &amp; Miller 1958 (sin impuestos) <span class="math display">\[K_p = \rho + (\rho-r_d)\cdot \left(\frac{D}{P_{c/d}} \right)\]</span> -Wacc Modigliani &amp; Miller 1958 (sin impuestos)</p>
+<p><span class="math display">\[\rho = r_{wacc}= \frac{D}{D+P} \cdot r_d + \frac{P}{D+P} \cdot r_p\]</span> -Proposición I Modigliani &amp; Miller 1963 (con impuestos corporativos)</p>
+<p><span class="math display">\[V_{c/d}=V_{s/d}+t_c \cdot D\]</span> -Proposición II Modigliani &amp; Miller 1963 (con impuestos corporativos)</p>
+<p><span class="math display">\[K_p = \rho + (\rho-r_d)\cdot \left(\frac{D}{P_{c/d}} \right)\cdot(1-t_c)\]</span> -<span class="math inline">\(\rho\)</span> Modigliani &amp; Miller 1963 (con impuestos corporativos)</p>
+<p><span class="math display">\[\rho = \frac{D}{D+P} \cdot r_d + \frac{P}{D+P} \cdot r_p\]</span> -Wacc Modigliani &amp; Miller 1963 (con impuestos corporativos)</p>
+<p><span class="math display">\[r_{wacc} = \frac{D}{D+P} \cdot r_d \cdot (1-t_c) + \frac{P}{D+P} \cdot r_p\]</span> -Proposición III Modigliani &amp; Miller 1963 (con impuestos corporativos) <span class="math display">\[r_{wacc}=\rho\left[1-t_c \cdot \left(\frac{D}{D+P} \right)\right]\]</span></p>
 </div>
-<div id="datos-de-contacto" class="section level2">
-<h2>Datos de contacto</h2>
-<ul>
-<li>correo de contacto: <a href="mailto:chrgonziba@gmail.com" class="email">chrgonziba@gmail.com</a></li>
-<li>correo institucional: <a href="mailto:chgonzalez@fen.uchile.cl" class="email">chgonzalez@fen.uchile.cl</a></li>
-<li>Número de contacto: +569 4210 7559</li>
-</ul>
+<div id="hamada-rubinstein" class="section level3">
+<h3>Hamada &amp; Rubinstein</h3>
+<p>-CAPM <span class="math display">\[\mathbb{E}(r_i)=r_f + \left(r_m-r_f\right) \cdot \beta_i \quad \forall \quad \beta_i = \frac{COV(r_i,r_m)}{VAR(r_m)}\]</span> -Deuda Hamada (1969,1972) <span class="math display">\[K_b=r_f\]</span> -Capital no apalancado Hamada (1969,1972) <span class="math display">\[\rho = r_f + [\mathbb{E}(r_m)-r_f]\cdot\beta_p^{s/d}\]</span> -Capital apalancado Hamada (1969,1972) <span class="math display">\[\rho = r_f + [\mathbb{E}(r_m)-r_f]\cdot\beta_p^{c/d}\]</span> -Relación entre el <span class="math inline">\(\beta\)</span> apalancado y no apalancado Hamada (1969,1972)</p>
+<p><span class="math display">\[\beta_p^{c/d}=\left(1 + (1-t_c)\cdot \frac{D}{D+P}\right)\cdot\beta_p^{s/d}\]</span> -<span class="math inline">\(K_{wacc}\)</span> Hamada (1969,1972) <span class="math display">\[K_{wacc}=\frac{P}{D+P}\cdot K_p + \frac{D}{D+P}\cdot (1-t_c) \cdot K_b\]</span> -Deuda Rubinstein(1973) <span class="math display">\[\mathbb{E}(\tilde{K}_b)= r_f + [\mathbb{E}(\tilde{K}_m)-r_f]\cdot \beta_d \quad \forall \quad \beta_d = \frac{COV(\tilde{K}_b,r_m)}{VAR(r_m)}\]</span> -Relación entre beta apalancado y beta apalancado Rubinstein(1973) <span class="math display">\[\beta_p^{c/d}=\left(1 + (1-t_c)\cdot \frac{D}{D+P}\right)\cdot\beta_p^{s/d}-(1-t_c)\cdot\frac{D}{P}\cdot\beta_d\]</span></p>
+<p>-Relación entre Hamada y Rubinstein</p>
+<p><span class="math display">\[\beta_p^{c/d}(Rubinstein)=\beta_p^{c/d}(Hamada)-(1-t_c)\cdot\frac{D}{P}\cdot\beta_d\]</span></p>
+</div>
+</div>
+<div id="section" class="section level2 unnumbered">
+<h2 class="unnumbered"></h2>
 </div>
 
 

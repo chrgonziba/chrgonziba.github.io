@@ -1,0 +1,17 @@
+/* Whole document: */
+
+body{
+  color: cyan;
+  font-family: Gargamond;
+  background-color: black;
+  font-size: 12pt;
+  }
+
+
+/* Headers */
+
+h1,h2,h3,h4,h5,h6{
+  color: chartreuse;
+  font-family: Gargamond;
+  background-color: black;
+}
