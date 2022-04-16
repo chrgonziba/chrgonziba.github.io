@@ -12,9 +12,18 @@ navbar:
     - text: "Material"
       href: Material.html 
     - text: "Formulario"
-      href: FormularioFIN2.html     
+      menu:
+      - text: Finanzas Corporativas Pregrado
+        href: FormularioFIN2.html     
     - text: "En elaboración"
-      href: Pendientes.html      
+      href: Pendientes.html
+  right:
+    - text: "Twitter"
+      icon: fa-twitter
+      href: https://twitter.com/Chis_Ibar
+    - text: "Instagram" 
+      href: https://www.instagram.com/christian_gonz_iba/
+      icon: fa-instagram
 output:
   html_document:
     theme: cosmo

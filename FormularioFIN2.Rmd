@@ -102,3 +102,5 @@ $$\beta_p^{c/d}(Rubinstein)=\beta_p^{c/d}(Hamada)-(1-t_c)\cdot\frac{D}{P}\cdot\b
 
 
 
+
+

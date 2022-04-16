@@ -8,6 +8,10 @@ output:
 ---
 
 ### Finanzas Corporativas
+<details>
+<summary> Textos </summary>
+<br>
+
 - [Corporate finance, Berk & De Marzo (Third edition,English version)](Material/Finanzas corporativas/Demarzothird.pdf)
 - [Finanzas Corporativas, Berk & De Marzo (Primera edición,Spanish version, 2008)](Material/Finanzas corporativas/finanzas-corporativas-berk 1ra 2008.pdf)
 - [Solutions manual Berk & De Marzo (2009 edition)](Material/Finanzas corporativas/Berk-demarzo solution manual 2008.pdf)
@@ -24,3 +28,7 @@ output:
 - [Finanzas corporativas Eduardo Court (1ra edición)](Material/Finanzas corporativas/Eduardo Court - Finanzas Corporativas.-Cengage Learning Editores S.A. de C.V. (2010).pdf)
 
 - [Finanzas Corporativas, teoría y práctica Carlos Maquieira (borrador)](Material/Finanzas corporativas/finanzas-corporativas-maquieira-.pdf)
+
+
+</details>
+
