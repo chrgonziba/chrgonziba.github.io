@@ -8,7 +8,7 @@ output:
 
 ## Formulario Finanzas Corporativas (pregrado) {.tabset .tabset-pills}
 
-### Matemática financiera
+### Matemática financiera 1
 
 -VAN con flujos en t=1 y sin crecimiento de estos
 $$VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i}{(1+r)^i}$$
