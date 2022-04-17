@@ -8,7 +8,8 @@ output:
 
 ## Formulario Finanzas Corporativas (pregrado) {.tabset .tabset-pills}
 
-### Mate financiera
+### Matemática financiera
+
 -VAN con flujos en t=1 y sin crecimiento de estos
 $$VAN_{t=0} = - I + \sum_{i=1}^n\frac{Flujo_i}{(1+r)^i}$$
 -VAN con flujos en t=1 y con crecimiento de estos
@@ -28,6 +29,7 @@ $$VP_{t=0}=\sum_{i=1}^\infty \frac{Flujo}{(1+r)^i}=\frac{Flujo}{r}$$
 $$VP_{t=0}=\sum_{i=1}^\infty \frac{Flujo\cdot(1+g)^i}{(1+r)^i}=\frac{Flujo}{r-g}$$
 Es importante que todas la fórmulas presentadas asumen de que los flujos suceden "al menos" un periodo más adelante, ya que de no ser así se debe incluir el flujo del periodo actual.
 
+### Modelos de valorización
 ### Bonos
 -Precio de mercado de bono tipo cero cupón a la colocación
 $$P=\frac{Nominal}{(1+r)^{n}}$$
