@@ -88,7 +88,7 @@ $$\rho = r_f + [\mathbb{E}(r_m)-r_f]\cdot\beta_p^{s/d}$$
 $$\rho = r_f + [\mathbb{E}(r_m)-r_f]\cdot\beta_p^{c/d}$$
 -Relación entre el $\beta$ apalancado y no apalancado Hamada (1969,1972)
 
-$$\beta_p^{c/d}=\left(1 + (1-t_c)\cdot \frac{D}{D+P}\right)\cdot\beta_p^{s/d}$$
+$$\beta_p^{c/d}=\left(1 + (1-t_c)\cdot \frac{D}{P}\right)\cdot\beta_p^{s/d}$$
 -$K_{wacc}$ Hamada (1969,1972)
 $$K_{wacc}=\frac{P}{D+P}\cdot K_p + \frac{D}{D+P}\cdot (1-t_c) \cdot K_b$$
 -Deuda Rubinstein(1973)
