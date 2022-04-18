@@ -10,7 +10,11 @@ navbar:
     - text: "Apuntes"
       href: Apuntes1.html
     - text: "Material"
-      href: Material.html 
+      menu:
+      - text: Libros
+        href: Material.html
+      - text: Ayudantías
+        href: Ayudantias.html        
     - text: "Formulario"
       menu:
       - text: Finanzas Corporativas Pregrado

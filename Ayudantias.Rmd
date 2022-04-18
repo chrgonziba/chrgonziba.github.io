@@ -1,0 +1,57 @@
+---
+output:
+  html_document:
+    css: style.css
+    theme: cosmo
+    highlight: textmate
+---
+
+### Finanzas Corporativas
+
+<details>
+<summary> Finanzas Corporativas Magíster Finanzas-u de Chile </summary>
+
+- [Ayudantía N°1](Ayudantias/Otono 2022/Finanzas Corporativas postgrado u de Chile/A1.pdf)
+
+- [Ayudantía N°2](Ayudantias/Otono 2022/Finanzas Corporativas postgrado u de Chile/A2 (de emergencia).pdf)
+
+- [Ayudantía N°3](Ayudantias/Otono 2022/Finanzas Corporativas postgrado u de Chile/A3.pdf)
+
+</details>
+
+<details>
+<summary> Finanzas Corporativas II (Pregrado u de Chile) </summary>
+
+- [Enunciado ayudantía N°1](Ayudantias/Otono 2022/Finanzas II u de Chile/Enunciado A1.pdf)
+
+- [Pauta ayudantía N°1](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta A1.pdf)
+
+- [Enunciado ayudantía N°2](Ayudantias/Otono 2022/Finanzas II u de Chile/Enunciado A2.pdf)
+
+- [Pauta ayudantía N°2](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta A2.pdf)
+
+- [Pauta ayudantía N°2 (Excel)](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta A2.xlsx)
+
+- [Enunciado ayudantía N°3](Ayudantias/Otono 2022/Finanzas II u de Chile/Enunciado A3.pdf)
+
+- [Pauta ayudantía N°3](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta A3.pdf)
+
+<br>
+
+- [Taller N°1](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta taller 1.pdf)
+
+- [Taller N°3](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta taller 3.pdf)
+
+</details>
+
+
+<details>
+<summary> Finanzas Corporativas II (Pregrado Santo Tomás) </summary>
+
+- [Enunciado ayudantía N°1](Ayudantias/Otono 2022/Finanzas Corporativas Santo Tomas/Enunciado A1.pdf)
+
+- [Pauta ayudantía N°1 (excel)](Ayudantias/Otono 2022/Finanzas Corporativas Santo Tomas/Pauta A1.xlsx)
+
+</details>
+
+
