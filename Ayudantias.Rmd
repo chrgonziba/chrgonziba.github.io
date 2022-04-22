@@ -36,6 +36,10 @@ output:
 
 - [Pauta ayudantía N°3](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta A3.pdf)
 
+- [Enunciado ayudantía N°4](Ayudantias/Otono 2022/Finanzas II u de Chile/Enunciado A4.pdf)
+
+- [Pauta ayudantía N°4](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta A4.pdf)
+
 <br>
 
 - [Taller N°1](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta taller 1.pdf)
@@ -51,6 +55,8 @@ output:
 - [Enunciado ayudantía N°1](Ayudantias/Otono 2022/Finanzas Corporativas Santo Tomas/Enunciado A1.pdf)
 
 - [Pauta ayudantía N°1 (excel)](Ayudantias/Otono 2022/Finanzas Corporativas Santo Tomas/Pauta A1.xlsx)
+
+- [Pauta ayudantía N°1 (a mano)](Ayudantias/Otono 2022/Finanzas Corporativas Santo Tomas/Pauta A1.pdf)
 
 </details>
 
