@@ -94,7 +94,7 @@ $$K_{wacc}=\frac{P}{D+P}\cdot K_p + \frac{D}{D+P}\cdot (1-t_c) \cdot K_b$$
 -Deuda Rubinstein(1973)
 $$\mathbb{E}(\tilde{K}_b)= r_f + [\mathbb{E}(\tilde{K}_m)-r_f]\cdot \beta_d \quad \forall \quad \beta_d = \frac{COV(\tilde{K}_b,r_m)}{VAR(r_m)}$$
 -Relación entre beta apalancado y beta apalancado Rubinstein(1973)
-$$\beta_p^{c/d}=\left(1 + (1-t_c)\cdot \frac{D}{D+P}\right)\cdot\beta_p^{s/d}-(1-t_c)\cdot\frac{D}{P}\cdot\beta_d$$
+$$\beta_p^{c/d}=\left(1 + (1-t_c)\cdot \frac{D}{P}\right)\cdot\beta_p^{s/d}-(1-t_c)\cdot\frac{D}{P}\cdot\beta_d$$
 
 -Relación entre Hamada y Rubinstein
 
