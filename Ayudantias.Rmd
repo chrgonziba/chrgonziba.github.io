@@ -17,6 +17,9 @@ output:
 
 - [Ayudantía N°3](Ayudantias/Otono 2022/Finanzas Corporativas postgrado u de Chile/A3.pdf)
 
+- [Ayudantían N°4](Ayudantias/Otono 2022/Finanzas Corporativas postgrado u de Chile/A4.pdf)
+
+- [Pauta ayudantía N°4](Ayudantias/Otono 2022/Finanzas Corporativas postgrado u de Chile/Pauta A4.pdf)
 </details>
 
 <details>
@@ -39,6 +42,10 @@ output:
 - [Enunciado ayudantía N°4](Ayudantias/Otono 2022/Finanzas II u de Chile/Enunciado A4.pdf)
 
 - [Pauta ayudantía N°4](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta A4.pdf)
+
+- [Enunciado ayudantía extra](Ayudantias/Otono 2022/Finanzas II u de Chile/Enunciado AE.pdf)
+
+- [Pauta ayudantía extra](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta AE.pdf)
 
 <br>
 
