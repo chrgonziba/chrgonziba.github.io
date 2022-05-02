@@ -19,6 +19,8 @@ navbar:
       menu:
       - text: Finanzas Corporativas Pregrado
         href: FormularioFIN2.html     
+    - text: "Ayudantía solidaria"
+      href: Asoli.html
     - text: "En elaboración"
       href: Pendientes.html
   right:
