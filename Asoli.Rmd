@@ -1,0 +1,17 @@
+---
+output:
+  html_document:
+    css: style.css
+    theme: cosmo
+    highlight: textmate
+---
+
+### Ayudantía solidaria
+
+- [Disponible aquí](Solidaria/Enunciado.pdf)
+
+### Adicional
+
+- [Solemnes pasadas](Solidaria/Compilado solemnes.pdf)
+
+- [Exámenes pasados](Solidaria/Compilado examenes pasados.pdf)

@@ -17,7 +17,7 @@ output:
 
 ## Mayo 
 
-- [ ] Relización ayudantía solidaria.
+- [x] Relización ayudantía solidaria.
 
 - [ ] Empezar con la elaboración de política de dividendos v/s recompra de acciones.
 
