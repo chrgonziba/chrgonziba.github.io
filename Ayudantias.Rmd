@@ -53,6 +53,12 @@ output:
 
 - [Taller N°3](Ayudantias/Otono 2022/Finanzas II u de Chile/Pauta taller 3.pdf)
 
+<br>
+
+- [Enunciado solemne](Solemne/Enunciado.pdf)
+
+- [Pauta Solemne](Solemne/Pauta.pdf)
+
 </details>
 
 
