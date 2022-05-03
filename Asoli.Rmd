@@ -10,6 +10,8 @@ output:
 
 - [Disponible aquí](Solidaria/Enunciado.pdf)
 
+- [Excel de la manera correcta de hacer el ejercicio multiperiodo](Solidaria/pauta AS.xlsx)
+
 ### Adicional
 
 - [Solemnes pasadas](Solidaria/Compilado solemnes.pdf)
