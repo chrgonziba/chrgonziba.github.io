@@ -15,6 +15,7 @@ Muchas Gracias!
 - [Modigliani & Miller](Apuntes/Finanzas/M&M.pdf)
 - [Hamada & Rubinstein](Apuntes/Finanzas/HamdaRubinstein.pdf)
 - [Estructura de capital óptima (en elaboración)](Apuntes/Finanzas/EstructuraO.pdf)
+- [Primera y segunda emisión de acciones](Apuntes/Finanzas/IPOandSEC.pdf)
 
 ## Econometría.
 

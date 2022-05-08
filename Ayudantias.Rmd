@@ -79,4 +79,13 @@ output:
 
 </details>
 
+<details>
+<summary> Ayudantía solidaria finanzas II (otoño 2022) </summary>
+
+- [Ayudantía solidaria](Solidaria/Enunciado.pdf)
+
+- [Excel de la manera correcta de hacer el ejercicio multiperiodo](Solidaria/pauta AS.xlsx)
+
+</details>
+
 
