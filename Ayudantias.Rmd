@@ -77,6 +77,8 @@ output:
 
 - [Enunciado ayudantía N°3](Ayudantias/Otono 2022/Finanzas Corporativas Santo Tomas/Enunciado A3.pdf)
 
+-[Pauta ayudantía N°4](Ayudantias/Otono 2022/Finanzas Corporativas Santo Tomas/Pauta A4.pdf)
+
 </details>
 
 <details>
