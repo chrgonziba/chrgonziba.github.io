@@ -13,8 +13,8 @@
 
 <title>Apuntes.</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -57,6 +57,7 @@ if (window.hljs) {
 
 
 
+
 <link rel="stylesheet" href="style.css" type="text/css" />
 
 
@@ -81,6 +82,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -138,11 +142,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -171,8 +179,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -180,16 +188,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -233,7 +234,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -252,7 +253,7 @@ $(document).ready(function () {
   <a href="Apuntes1.html">Apuntes</a>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Material
      
     <span class="caret"></span>
@@ -267,7 +268,7 @@ $(document).ready(function () {
   </ul>
 </li>
 <li class="dropdown">
-  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     Formulario
      
     <span class="caret"></span>
@@ -306,32 +307,41 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore"><span style="font-family:Times New Roman">Apuntes</span>.</h1>
+<h1 class="title toc-ignore"><span
+style="font-family:Times New Roman">Apuntes</span>.</h1>
 
 </div>
 
 
-<p>Cualquier comentario (u observación) porfavor escribir al correo <a href="mailto:chrgonziba@gmail.com" class="email">chrgonziba@gmail.com</a>.</p>
+<p>Cualquier comentario (u observación) porfavor escribir al correo <a
+href="mailto:chrgonziba@gmail.com"
+class="email">chrgonziba@gmail.com</a>.</p>
 <p>Muchas Gracias!</p>
 <div id="finanzas-corporativas." class="section level2">
 <h2>Finanzas Corporativas.</h2>
 <ul>
-<li><a href="Apuntes/Finanzas/M&amp;M.pdf">Modigliani &amp; Miller</a></li>
-<li><a href="Apuntes/Finanzas/HamdaRubinstein.pdf">Hamada &amp; Rubinstein</a></li>
-<li><a href="Apuntes/Finanzas/EstructuraO.pdf">Estructura de capital óptima (en elaboración)</a></li>
-<li><a href="Apuntes/Finanzas/IPOandSEC.pdf">Primera y segunda emisión de acciones</a></li>
+<li><a href="Apuntes/Finanzas/M&amp;M.pdf">Modigliani &amp;
+Miller</a></li>
+<li><a href="Apuntes/Finanzas/HamdaRubinstein.pdf">Hamada &amp;
+Rubinstein</a></li>
+<li><a href="Apuntes/Finanzas/EstructuraO.pdf">Estructura de capital
+óptima (en elaboración)</a></li>
+<li><a href="Apuntes/Finanzas/IPOandSEC.pdf">Primera y segunda emisión
+de acciones</a></li>
 </ul>
 </div>
 <div id="econometría." class="section level2">
 <h2>Econometría.</h2>
 <ul>
-<li><a href="Apuntes/Econometría/Econ1.pdf">Apunte econometría cohorte transversal (en elaboración)</a></li>
+<li><a href="Apuntes/Econometría/Econ1.pdf">Apunte econometría cohorte
+transversal (en elaboración)</a></li>
 </ul>
 </div>
 <div id="macroeconomía." class="section level2">
 <h2>Macroeconomía.</h2>
 <ul>
-<li><a href="Apuntes/Macroeconomía/IS-LM%20economía%20cerrada.pdf">IS-LM Economía cerrada</a></li>
+<li><a href="Apuntes/Macroeconomía/IS-LM%20economía%20cerrada.pdf">IS-LM
+Economía cerrada</a></li>
 </ul>
 </div>
 

@@ -26,3 +26,6 @@ output:
 - [ ] Elaboración de apuntes sobre métodos de valorización.
 
 - [ ] Elaboración de apuntes sobre bonos o matemática financiera.
+
+- [ ] Elaboración de apuntes sobre bonos o matemática financiera.
+
